@@ -80,13 +80,13 @@ DATABASES = {
 
     'ENGINE': 'django.db.backends.mysql',
 
-    'NAME': 'Handsome',
+    'NAME': 'handsomedjango',
 
-    'USER': 'chumpower',
+    'USER': 'handsomedjango',
 
-    'PASSWORD': 'yrTfVrTdCZQjxCQX',
+    'PASSWORD': 'MM4yVrcUAwPndHSZ',
 
-    'HOST': '59.126.108.109',  # ip
+    'HOST': '220.130.208.149',  # ip
 
     'PORT': '3306',
         
