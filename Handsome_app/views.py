@@ -9,3 +9,5 @@ def hello_world(request):
     })
 def index(request):
     return HttpResponse("你好")
+def index(request):
+    return render_to_response('index.html')
