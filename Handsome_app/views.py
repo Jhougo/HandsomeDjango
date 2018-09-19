@@ -7,7 +7,7 @@ def hello_world(request):
     return render(request, 'hello_world.html', {
         'current_time': str(datetime.now()),
     })
-def index(request):
-    return HttpResponse("你好")
+#def index(request):
+#    return HttpResponse("你好")
 def index(request):
     return render_to_response('index.html')
